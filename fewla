@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Котстудия - фотосессии кошек</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="ffffff.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <h1>Мы фотографируем кошек</h1>
+      <nav class="nav">
+        <a href="#gallery">Галерея</a>
+        <a href="#form">Запись</a>
+        <a href="#contact">Контакты</a>
+      </nav>
+    </div>
+  </header>
+
+  <section id="gallery" class="gallery">
+    <div class="container">
+      <h2>Галерея</h2>
+      <div class="gallery-images">
+        <img src="https://storage.yandexcloud.net/yac-wh-sb-prod-s3-media-03002/uploads/article/423/pochemu_myaukaet_bez_prichiny_1023x448.webp" alt="Cat 1">
+        <img src="https://vet-centre.ru/wp-content/uploads/2023/03/seraya-koshka.jpg" alt="Cat 2">
+        <img src="https://vethelp72.ru/wp-content/uploads/2024/03/%D0%A1%D1%87%D0%B0%D1%81%D1%82%D0%BB%D0%B8%D0%B2%D0%B0%D1%8F-%D0%BA%D0%BE%D1%88%D0%BA%D0%B0-1110x583.png" alt="Cat 3">
+      </div>
+    </div>
+  </section>
+
+  <section id="form" class="form-section">
+    <div class="container">
+      <h2>Запишитесь на фотосессию</h2>
+      <form class="booking-form">
+        <input type="text" placeholder="Ваше имя" required>
+        <input type="tel" placeholder="Телефон" required>
+        <input type="email" placeholder="Email" required>
+        <button type="submit">Записаться</button>
+      </form>
+    </div>
+  </section>
+
+  <footer id="contact" class="footer">
+    <div class="container">
+      <p>&copy; 2025 Котстудия. Все права защищены.</p>
+    </div>
+  </footer>
+
+  <script src="geerer.js"></script>
+
+</body>
+</html>
